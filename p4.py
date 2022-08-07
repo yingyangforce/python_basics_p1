@@ -7,10 +7,13 @@ import sys, math
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         radius = float(sys.argv[1])
-        if radius == int(radius):
-            radius = int(radius)
+    else:
+        radius = float(input("Enter the radius of your circle: "))
 
-        area = math.pi * (radius ** 2)
-        print(f"Area of circle for r={radius} -> {area:.3f}")
+    if radius == int(radius):
+        radius = int(radius)
+
+    area = math.pi * (radius ** 2)
+    print(f"Area of circle for r={radius} -> {area:.3f}")
 
 
