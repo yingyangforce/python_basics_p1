@@ -1,4 +1,4 @@
 # Python Basics - Part 1
 
-Part one of a list of python prompts {1..150}
+Here be a gathering of (up to) 150 python prompts.
 
